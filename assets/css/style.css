@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+dl,
+hr,
+table,
+figure,
+pre,
+address,
+blockquote {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+a,
+button,
+select {
+    text-decoration: none;
+    color: inherit;
+    background: inherit;
+}
+
+:root {
+    --gren-gray-scale-900: #002603;
+    --gren-gray-scale-800: #173b1a;
+    --gren-gray-scale-700: #2b572e;
+    --gren-gray-scale-600: #406b42;
+    --gren-gray-scale-500: #618062;
+    --gren-gray-scale-400: #7a997c;
+    --gren-gray-scale-300: #96b297;
+    --gren-gray-scale-200: #b4ccb4;
+    --gren-gray-scale-100: #dae5da;
+    --gren-gray-scale-50: #edf2ee;
+    --gray-scale-gray-–-900: #1a1a1a;
+    --gray-scale-gray-–-800: #333;
+    --gray-scale-gray-–-700: #4d4d4d;
+    --gray-scale-gray-–-600: #666;
+    --gray-scale-gray-–-500: #808080;
+    --gray-scale-gray-–-400: #999;
+    --gray-scale-gray-–-300: #b3b3b3;
+    --gray-scale-gray-–-200: #ccc;
+    --gray-scale-gray-–-100: #e6e6e6;
+    --gray-scale-gray-–-50: #f2f2f2;
+    --gray-scale-white: #fff;
+    --branding-success-bright: #84d187;
+    --branding-success: #00b207;
+    --branding-success-neutral: #00a706;
+    --branding-success-dark: #2c742f;
+    --branding-warning: #ff8a00;
+    --branding-error: #ea4b48;
+    --font-family: "Poppins", sans-serif;
+    --second-family: "Segoe Script", sans-serif;
+    --third-family: "Dancing Script", sans-serif;
+}
+
+body {
+    font-family: var(--font-family);
+}
+
+
+.flex-justify-start {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.flex-justify-center {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-justify-end {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.flex-xy-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-align-start {
+    display: flex;
+    align-items: flex-start;
+}
+
+.flex-align-center {
+    display: flex;
+    align-items: center;
+}
+
+.flex-align-end {
+    display: flex;
+    align-items: flex-end;
+}
+
+.iconify {
+    display: inline-flex;
+    align-items: center;
+}
+
+.brand_logo {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 119%;
+    letter-spacing: -0.03em;
+    color: var(--gren-gray-scale-900);
+    display: inline-flex;
+    align-items: center;
+}
+
+.brand_logo:hover {
+    color: var(--gray-scale-gray-–-700);
+}
+
+.brand_logo>img {
+    margin-right: 8px;
+}
+
+/*-- ============= common css end ================== --*/
+
+
+
+
+
+
+
+
+/*-- ========= best-deal SECTION START =============== --*/
+#best-deal {
+    background: var(--gren-gray-scale-50);
+}
+
+#best-deal .countdown {
+    margin: 100px 0 100px 40px;
+    text-align: center;
+}
+
+#best-deal .countdown h5 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0.02em;
+    color: var(--branding-success);
+}
+
+#best-deal .countdown h3 {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 120%;
+    color: var(--gren-gray-scale-900);
+    margin: 12px 0 24px;
+}
+
+#best-deal .countdown .timer {
+    margin-bottom: 32px;
+}
+
+#best-deal .timer .time_part {
+    width: calc(25% - 15px);
+    border-radius: 6px;
+    background: var(--gray-scale-white);
+    padding: 20px 8px;
+    position: relative;
+}
+
+#best-deal .timer .time_part:not(:first-child)::before {
+    content: ':';
+    font-size: 20px;
+    color: var(--gren-gray-scale-500);
+    font-weight: 400;
+    line-height: 150%;
+    position: absolute;
+    top: 50%;
+    left: -13%;
+    transform: translateY(-50%);
+}
+
+#best-deal .timer .time_part h4 {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 120%;
+    color: var(--branding-success);
+    margin-bottom: 4px;
+}
+
+#best-deal .timer .time_part h6 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--gren-gray-scale-500);
+}
+
+#best-deal .img_part_2 img {
+    display: inline-block;
+    margin-left: -50px;
+}
+
+/*-- ========= best-deal SECTION END =============== --*/
+
+
+
+.shop-btn {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 120%;
+    color: var(--gray-scale-white);
+    background: var(--branding-success);
+    border-radius: 43px;
+    padding: 16px 40px;
+    border: 1px solid transparent;
+}
+
+.shop-btn:focus {
+    color: var(--branding-success);
+    background: var(--gray-scale-white);
+    border: 1px solid var(--branding-success);
+    transition: border 0.3s ease-in-out;
+}
+
+
+.shop-btn span {
+    font-size: 20px;
+    margin-left: 16px;
+}

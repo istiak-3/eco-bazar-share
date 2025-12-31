@@ -1,0 +1,90 @@
+@media (max-width: 991px) {
+
+    :root {
+        --gren-gray-scale-900: #002603;
+        --gren-gray-scale-800: #173b1a;
+        --gren-gray-scale-700: #2b572e;
+        --gren-gray-scale-600: #406b42;
+        --gren-gray-scale-500: #618062;
+        --gren-gray-scale-400: #7a997c;
+        --gren-gray-scale-300: #96b297;
+        --gren-gray-scale-200: #b4ccb4;
+        --gren-gray-scale-100: #dae5da;
+        --gren-gray-scale-50: #edf2ee;
+        --gray-scale-gray-–-900: #1a1a1a;
+        --gray-scale-gray-–-800: #333;
+        --gray-scale-gray-–-700: #4d4d4d;
+        --gray-scale-gray-–-600: #666;
+        --gray-scale-gray-–-500: #808080;
+        --gray-scale-gray-–-400: #999;
+        --gray-scale-gray-–-300: #b3b3b3;
+        --gray-scale-gray-–-200: #ccc;
+        --gray-scale-gray-–-100: #e6e6e6;
+        --gray-scale-gray-–-50: #f2f2f2;
+        --gray-scale-white: #fff;
+        --branding-success-bright: #84d187;
+        --branding-success: #00b207;
+        --branding-success-neutral: #00a706;
+        --branding-success-dark: #2c742f;
+        --branding-warning: #ff8a00;
+        --branding-error: #ea4b48;
+        --font-family: "Poppins", sans-serif;
+        --second-family: "Segoe Script", sans-serif;
+        --third-family: "Dancing Script", sans-serif;
+    }
+
+    /*-- ========= best-deal SECTION START =============== --*/
+    #best-deal {
+        padding: 20px 0;
+    }
+
+    #best-deal .img_part_1 {
+        justify-content: center;
+    }
+
+    #best-deal .img_part_1 img {
+        display: inline-block;
+        width: 100%;
+    }
+
+    #best-deal .countdown {
+        margin: 30px 0 40px;
+    }
+
+    #best-deal .countdown h3 {
+        font-size: 30px;
+        margin: 12px 0 24px;
+    }
+
+
+    #best-deal .timer .time_part {
+        width: calc(25% - 13px);
+        padding: 14px 6px;
+    }
+
+    #best-deal .timer .time_part:not(:first-child)::before {
+        left: -13.5%;
+    }
+
+    #best-deal .timer .time_part h4 {
+        font-size: 30px;
+        margin-bottom: 4px;
+    }
+
+    #best-deal .timer .time_part h6 {
+        font-size: 12px;
+    }
+
+    #best-deal .img_part_2 {
+        align-items: center;
+        justify-content: center;
+    }
+
+    #best-deal .img_part_2 img {
+        width: 100%;
+        margin: 0;
+    }
+
+    /*-- ========= best-deal SECTION END =============== --*/
+
+}
